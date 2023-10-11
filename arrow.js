@@ -7,3 +7,7 @@ function outer(){
 const outerTwo = function(){
   return "bye";
 }
+
+// 화살표 함수 배워보기
+const outerThree = () => "wow";
+console.log(outerThree()); // 콘솔에 찍히는 내용 확인 : wow
