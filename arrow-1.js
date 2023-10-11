@@ -1,8 +1,4 @@
-function outerOne(){
-  function innerOne(){
-    console.log(this);
-  }
-  innerOne();
+function outerOne(a){
+  const innerOne = b => console.log(b);
+  innerOne(a);
 }
-
-console.log(outerOne());
