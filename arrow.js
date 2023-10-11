@@ -1,5 +1,5 @@
 // 이름이 있는 함수(기명함수)
-function outer(){
+function outerOne(){
   return "hello";
 }
 
@@ -13,4 +13,3 @@ const outerThree = () => "wow";
 
 // 매개변수가 하나인 화살표 함수
 const outerFour = a => a;
-// 더욱 충격적인 형태;
