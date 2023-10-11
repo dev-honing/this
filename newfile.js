@@ -1,8 +1,8 @@
-function student(name, number){
+function Student(name, number){
   this.name = name;
   this.number = number;
 }
-let test = new student("변호녕", "0")
+let test = new Student("변호녕", "0")
 
 // 빈 배열을 변수 선언
 let studentArr = [];
@@ -11,12 +11,6 @@ let studentArr = [];
 let list = ["이민구", "윤준현"];
 
 for(let i=0; i < list.length; i++ ){
-  studentArr[i] = new student(list[i], i+1);
+  studentArr[i] = new Student(list[i], i+1);
 }
-console.log(studentArr); // 콘솔로 찍힌 내용을 확인하기
-// [
-//   student { name: '이민구', number: 1 },
-//   student { name: '윤준현', number: 2 }
-// ]
-
-// 거푸집의 원리와 같다 : 틀을 만든 것!
+// 생성자 함수는 파스칼 케이스를 활용해 대문자로 작성하곤 한다. 관습적인 방식
