@@ -10,4 +10,7 @@ const outerTwo = function(){
 
 // 화살표 함수 배워보기
 const outerThree = () => "wow";
-console.log(outerThree()); // 콘솔에 찍히는 내용 확인 : wow
+
+// 매개변수가 하나인 화살표 함수
+const outerFour = a => a;
+// 더욱 충격적인 형태;
