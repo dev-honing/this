@@ -1,12 +1,9 @@
 // 이름이 있는 함수(기명함수)
 function outer(){
-
+  return "hello";
 }
 
 // 이름이 없는 함수(익명함수, 함수 리터럴)
 const outerTwo = function(){
-
+  return "bye";
 }
-
-// 메모리에서 변수는 쓰지 않으면 사라진다.
-// 이름이 있는 함수는 항상 메모리에 잡혀있는 일급객체
